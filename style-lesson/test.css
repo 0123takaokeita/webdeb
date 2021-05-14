@@ -1,0 +1,16 @@
+.nav{
+  margin: 100px 100px;
+  height: 10rem;
+  width: 10px;
+  position: fixed;
+  background-color: black;
+}
+.top{
+  height: 20rem;
+  /* background-color: brown; */
+}
+
+
+body {
+    margin: 0px;
+}
