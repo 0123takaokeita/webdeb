@@ -20,13 +20,18 @@
 
   <p id="seco">JavaScriptは</p>
   <button id="second-btn">追記する</button>
+  <p id="third">スタイル変更</p>
+  <button id="third-btn">変更してね</button>
   <script>
     document.getElementById('second-btn').onclick = function () {
       document.getElementById('seco').innerHTML += 'どっちでも動くよ！'
     }
 
+    document.getElementById('third-btn').onclick = function(){
+      // document.getElementById('third').style.color = 'red'
+      document.getElementById('third').style.display = 'none';
+    }
   </script>
-
 
 
 </body>
