@@ -8,8 +8,23 @@
 </head>
 <body>
   <p id="text">hello world!</p>
+  <button id="btn">文字の変換
+  </button>
   <script type="text/javascript">
-    document.getElementById('text').innerHTML = "tete"
+    document.getElementById('btn').onclick = function(){
+      document.getElementById('text').innerHTML = '変更しました。';
+    }
   </script>
+
+  <p id="seco">JavaScriptは</p>
+  <button id="second-btn">追記する</button>
+  <script> 
+    document.getElementById('second-btn').onclick = function(){
+    document.getElementById('seco').innerHTML += 'どっちでも動くよ！'}  
+    
+      </script>
+
+
+
 </body>
 </html>
