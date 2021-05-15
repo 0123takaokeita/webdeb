@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    <input type='text' id='magic'>
+  </p>
+  <p><button id="check">暗号チェックです。</button></p>
+  <script>
+    document.getElementById('check').onclick = function(){
+      let magick = document.getElementById('magic').value;
+      let word = 'aaa';
+
+      if (magick == word){
+        alert('match');
+      }else {
+        alert('not match');
+      }
+    }
+  </script>
+</body>
+</html>
